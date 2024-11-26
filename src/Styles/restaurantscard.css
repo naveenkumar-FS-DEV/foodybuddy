@@ -1,0 +1,21 @@
+.cards-container{
+    height: 380px;
+    width: 280px;
+    padding: 10px;
+    line-height: 26px;
+    margin-top: 60px;
+    border-radius: 8px;
+    color: black;
+}
+
+.cards-container:hover{
+    /* background-color: rgb(233, 224, 224); */
+    box-shadow: 5px 5px 15px whitesmoke;
+    border: 2px solid whitesmoke;
+}
+
+.cards-container img{
+    height: 180px;
+    width: 260px;
+    border-radius: 8px;
+}

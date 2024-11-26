@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+}
+
+.cards{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 25px;
+  gap: 35px;
+}
+
+.filter-btn{
+  padding: 5px;
+  background-color: black;
+  color: white;
+}
+
+.error-container{
+  height: 150px;
+  width: 550px;
+  margin: 150px auto;
+}
+.error-container img{
+  height: 320px;
+  width: 550px;
+}
+
+.footer-container{
+  color: white;
+  background-color: #630726;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.search-container button,input{
+  padding: 5px;
+}
+
+.filter-toprated{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 25px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}

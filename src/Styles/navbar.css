@@ -1,0 +1,80 @@
+.header-container .logo img{
+    height: 100px;
+}
+
+.nav-items ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #630726;
+    color: white;
+}
+.nav-items ul li{
+    margin-left: 35px;
+    margin-right: 30px;
+}
+
+.nav-items ul li:hover{
+    color: #FDC200;
+}
+
+
+/* mobile phones */
+
+
+/* Hide the hamburger menu by default (on large screens) */
+.hamburger-menu {
+    display: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+/* Styles for when the menu is open on small screens */
+.nav-items ul.active {
+    display: block;
+    position: absolute;
+    top: 80px; /* Adjust this value to ensure the menu appears below the navbar */
+    left: 0;
+    right: 0;
+    background-color: #630726;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Adjust the list items when the menu is open */
+.nav-items ul.active li {
+    margin: 15px 0; /* Vertical margin for items in the mobile menu */
+}
+
+/* Media query for small screens (max-width: 768px) */
+@media (max-width: 768px) {
+    .nav-items ul {
+        display: none; /* Hide the menu by default on smaller screens */
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 80px; /* Ensure menu is positioned below the navbar */
+        left: 0;
+        background-color: #630726;
+    }
+
+    /* Show the hamburger menu on smaller screens */
+    .hamburger-menu {
+        display: block;
+    }
+
+    /* Adjust the list items in the mobile menu */
+    .nav-items ul li {
+        margin: 15px 0; /* Adjust spacing for mobile view */
+    }
+}
+

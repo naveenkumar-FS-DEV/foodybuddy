@@ -1,0 +1,15 @@
+.gallery-container{
+    margin-top: 30px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-wrap: wrap;
+   gap: 25px;
+   padding: 15px;
+   object-fit: cover;
+}
+
+.gallery-container img{
+    height: 300px;
+    width: 350px;
+}
